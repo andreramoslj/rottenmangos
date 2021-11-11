@@ -100,8 +100,8 @@ Caso haja incompatibilidade de versões das libs do projeto, renomeie a sua past
 
 #### Funcionamento da Aplicação
 
-
-* Importar um arquivo csv no formato especificado. (MESMO FORMATO DO ARQUIVO DE TESTE EM resources/) utilizando endpoint POST /api/v1/process/import
+* Ao iniciar a aplicaçao e importado os dados de um arquivo csv com uma lista de Indicaçao e salvo no Banco de dados em Memoria
+* É possível importar mais arquivos csv no formato especificado. (MESMO FORMATO DO ARQUIVO DE TESTE EM resources/) utilizando o endpoint POST /api/v1/process/import
 ** Informar O Arquivo e o Nome de descrição.
 * O endpoint vai iniciar o processo de forma ASSINCRONA. 
 * É possível analisar o status do Arquivo GET /api/v1/raspberry-files
