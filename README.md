@@ -100,7 +100,7 @@ Caso haja incompatibilidade de versões das libs do projeto, renomeie a sua past
 
 #### Funcionamento da Aplicação
 
-* Ao iniciar a aplicaçao e importado os dados de um arquivo csv com uma lista de Indicaçao e salvo no Banco de dados em Memoria
+* Ao iniciar a aplicaçao os dados de um arquivo csv são importados e salvos no Banco de dados em Memoria
 * É possível importar mais arquivos csv no formato especificado. (MESMO FORMATO DO ARQUIVO DE TESTE EM resources/) utilizando o endpoint POST /api/v1/process/import
 ** Informar O Arquivo e o Nome de descrição.
 * O endpoint vai iniciar o processo de forma ASSINCRONA. 
